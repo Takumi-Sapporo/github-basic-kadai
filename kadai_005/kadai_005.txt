@@ -1,0 +1,29 @@
+Last login: Sun Aug 17 14:05:35 on ttys000
+/Users/onotakumi/.zprofile:2: no such file or directory: /usr/local/bin/brew
+/Users/onotakumi/.zprofile:6: no such file or directory: /usr/local/bin/brew
+onotakumi@onotakuminoMacBook-Air ~ % cd /Users/onotakumi/Desktop/git_challenge
+onotakumi@onotakuminoMacBook-Air git_challenge % touch hello_world.txt
+onotakumi@onotakuminoMacBook-Air git_challenge % git init
+Initialized empty Git repository in /Users/onotakumi/Desktop/git_challenge/.git/
+onotakumi@onotakuminoMacBook-Air git_challenge % git add .
+onotakumi@onotakuminoMacBook-Air git_challenge % git commit -m "hello_world.txt"
+[main (root-commit) 5c90d5e] hello_world.txt
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+onotakumi@onotakuminoMacBook-Air git_challenge % git add .
+onotakumi@onotakuminoMacBook-Air git_challenge % git add .
+onotakumi@onotakuminoMacBook-Air git_challenge % git commit -m "日本語訳を追加"[main bb55b45] 日本語訳を追加
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+onotakumi@onotakuminoMacBook-Air git_challenge % git log                 
+commit bb55b4529e050b81038e7b1231d0399593093a82 (HEAD -> main)
+Author: Takumi-Sapporo <onotakumi504@gmail.com>
+Date:   Sun Aug 17 14:11:48 2025 +0900
+
+    日本語訳を追加
+
+commit 5c90d5e2c72feda8832d72245bd73feba9a247b8
+Author: Takumi-Sapporo <onotakumi504@gmail.com>
+Date:   Sun Aug 17 14:10:48 2025 +0900
+
+    hello_world.txt
+onotakumi@onotakuminoMacBook-Air git_challenge % cd
